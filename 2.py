@@ -12,14 +12,14 @@ if a==0 and b!=0:
     
 elif a!=0 and b==0:
     if c>0:
-      print('Корней нет')
+      print(' ')
     else:
       x1=math.sqrt(-c/a)
       x2=-x1
-    print('(%f; %f)'%(x1,x2))
+      print('%f, %f'%(x1,x2))
     
 elif a==0 and b==0:
-    print('Корней нет')
+    print(' ')
     
 elif a!=0 and b!=0:
     dis=(b**2)-(4*a*c)
@@ -32,7 +32,7 @@ elif a!=0 and b!=0:
       d=math.sqrt(dis)
       x1=(-b+d)/(2*a)
       x2=(-b-d)/(2*a)
-      print('(%f; %f)'%(x1,x2))
+      print('%f, %f'%(x1,x2))
 
     else:
-      print('Корней нет')
+      print(' ')
